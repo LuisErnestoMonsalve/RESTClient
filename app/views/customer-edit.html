@@ -1,0 +1,46 @@
+<div class="col"><h1>Editar Datos de Cliente</h1>
+    <div class="container">
+        <div class="row">
+            <form ng-submit="updateCustomer()" class="col-md-4">
+                <div class="form-group">
+                    <label for="">Nombre</label>
+                    <input class="form-control" ng-model="customer.name" type="text" onload="" >
+                </div>
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input class="form-control" ng-model="customer.email" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Direccion 1</label>
+                    <input class="form-control" ng-model="customer.addressline1" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Direccion 2</label>
+                    <input class="form-control" ng-model="customer.addressline2" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Limite de credito</label>
+                    <input class="form-control" ng-model="customer.creditLimit" type="text" required>
+                </div>
+                  <div class="form-group">
+                    <label for="">Ciudad</label>
+                    <input class="form-control" ng-model="customer.city" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Fax</label>
+                    <input class="form-control" ng-model="customer.fax" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Telefono</label>
+                    <input class="form-control" ng-model="customer.phone" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Estado</label>
+                    <input class="form-control" ng-model="customer.state" type="text" required>
+                </div>
+                <button type="submit" class="btn btn-success ">Guardar Cambios</button>
+            </form>
+        </div>
+        
+    </div>
+</div>
